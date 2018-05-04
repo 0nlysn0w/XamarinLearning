@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UdemyApp.PhotoPage">
+	<ContentPage.Padding>
+		<OnPlatform x:TypeArguments="Thickness"
+			iOS="0, 20, 0, 0">
+		</OnPlatform>
+	</ContentPage.Padding>
+	<StackLayout>
+		<StackLayout Padding="30">
+			<Label Text="nyc_photographer" />
+		</StackLayout>
+		<Image Source="http://placehold.it/1920x1080"></Image>
+		<StackLayout Padding="20, 0">
+
+			<StackLayout Orientation="Horizontal">
+				<Button Text="Like"/>
+				<Button Text="Comment"/>
+				<Button Text="Share"/>
+			</StackLayout>
+			
+			<BoxView Color="#f0f0f0" HeightRequest="1"/>
+			<Label Text="700 likes" FontAttributes="Bold"/>
+			<Label Text="This is a stupid placeholder because Xamarin will not load a nice image :("/>
+
+		</StackLayout>
+	</StackLayout>
+</ContentPage>
