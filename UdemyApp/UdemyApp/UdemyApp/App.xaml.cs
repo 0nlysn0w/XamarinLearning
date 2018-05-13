@@ -13,7 +13,7 @@ namespace UdemyApp
 		{
 			InitializeComponent();
 
-			MainPage = new CreditPage();
+			MainPage = new RelaxPage();
 		}
 
 		protected override void OnStart ()
