@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UdemyApp.ImagePage">
+	<!--<ActivityIndicator IsRunning="true"
+					   AbsoluteLayout.LayoutBounds="0.5, 0.5, 100, 100"
+					   AbsoluteLayout.LayoutFlags="PositionProportional"/>
+	<Image Source="http://placekitten.com/1080/1920" IsVisible="false" x:Name="image" Aspect="AspectFill"/>-->
+
+	<Image x:Name="image" Aspect="AspectFill"/>
+</ContentPage>
